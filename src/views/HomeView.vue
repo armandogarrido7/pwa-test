@@ -5,6 +5,6 @@ import TheWelcome from '../components/TheWelcome.vue'
 <template>
   <main>
     <TheWelcome />
-    2da NUEVA VERSION PWA
+    3a NUEVA VERSION PWA
   </main>
 </template>
