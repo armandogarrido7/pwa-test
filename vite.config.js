@@ -13,14 +13,14 @@ export default defineConfig({
     vueJsx(),
     VueDevTools(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       includeAssets: ['./img/icon-192x192.png', './img/icon-256x256.png', './img/icon-384x384.png', './img/icon-512x512.png'],
       manifest: {
         'theme_color': '#ffffff',
         'background_color': '#000000',
         'display': 'fullscreen',
-        'scope': 'https://jdvm.vercel.app/',
-        'start_url': 'https://jdvm.vercel.app/',
+        'scope': 'https://pwa-test-gold-psi.vercel.app/',
+        'start_url': 'https://pwa-test-gold-psi.vercel.app/',
         'name': 'JDVM',
         'short_name': 'JDVM',
         'description': 'JDVM Web App',
